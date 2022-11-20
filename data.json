@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "data": {
+    "city": "Inashiki",
+    "state": "Ibaraki",
+    "country": "Japan",
+    "current": {
+      "pollution": {
+        "ts": "2022-11-20T12:00:00.000Z",
+        "aqius": 21,
+        "mainus": "p2",
+        "aqicn": 7,
+        "maincn": "p2"
+      },
+      "weather": {
+        "ts": "2022-11-20T12:00:00.000Z",
+        "tp": 13,
+        "pr": 1022,
+        "hu": 78,
+        "ws": 1.8,
+        "wd": 360,
+        "ic": "04n"
+      }
+    }
+  }
+}
