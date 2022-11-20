@@ -28,3 +28,32 @@
 - Logging with [morgan](https://github.com/expressjs/morgan)
 - Rate limiting with [express-rate-limit](https://www.npmjs.com/package/express-rate-limit)
 - API documentation generation with [swagger-docs](https://swagger.io/docs/)
+
+
+
+## Prerequisites
+
+- [Node v10.0+](https://nodejs.org/en/download/current/) or [Docker](https://www.docker.com/)
+
+- [npm v6.0+](https://www.npmjs.com)
+
+## Getting Started
+
+1. Clone the repo and make it yours:
+
+```bash
+git clone https://github.com/dfourcfive/air_quality.git
+cd air_quality
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Set environment variables:
+
+```bash
+bash to_dev.sh
+```
