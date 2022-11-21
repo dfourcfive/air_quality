@@ -49,7 +49,12 @@ cd air_quality
 npm install
 ```
 
-3. Set environment variables:
+3. use your IQAIR api key in dev.env:
+```bash
+API = YOUR_IQAIR_API_KEY
+```
+
+4. Set environment variables:
 - note : this script must be excuted first!
 ```bash
 bash to_dev.sh
