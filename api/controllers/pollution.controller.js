@@ -91,7 +91,7 @@ exports.most_polluted = async (req, res, next) => {
     const result = sortedObjects[1];
     res.status(200).send({
       status: 'success',
-      message: '',
+      message: 'data available',
       result: result.time
     });
   } catch (error) {

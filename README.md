@@ -1,11 +1,6 @@
-[![PRs Welcome]()]()
-[![Build Status]()]()
-[![Coverage Status]()]()
-[![Known Vulnerabilities]()]()
 ![node version](https://img.shields.io/badge/node-%3E=%2012.0.0-brightgreen.svg)
-[![express](https://img.shields.io/badge/express-4.17.1-orange.svg)](https://github.com/expressjs/express)
-[![mongoose](https://img.shields.io/badge/mongoose-5.7.7-red.svg)](https://mongoosejs.com/)
-[![LICENCE](https://img.shields.io/github/license/shekhar-raval/node-express-es8)](https://img.shields.io/github/license/shekhar-raval/node-express-es8)
+[![express](https://img.shields.io/badge/express-4.18.2-orange.svg)](https://github.com/expressjs/express)
+[![mongoose](https://img.shields.io/badge/mongoose-6.7.2-red.svg)](https://mongoosejs.com/)
 ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 
 
@@ -22,6 +17,7 @@
 - Logging with winston [winston](https://github.com/winstonjs/winston)
 - Consistent coding styles with [editorconfig](http://editorconfig.org)
 - Gzip compression with [compression](https://github.com/expressjs/compression)
+- Periodic tasks and jobs [cron](https://www.npmjs.com/package/cron)
 - Linting with [eslint](http://eslint.org)
 - Tests with [mocha](https://mochajs.org), [chai](http://chaijs.com) and [sinon](http://sinonjs.org)
 - Code coverage with [Jest](https://jestjs.io/)
@@ -33,9 +29,9 @@
 
 ## Prerequisites
 
-- [Node v10.0+](https://nodejs.org/en/download/current/) or [Docker](https://www.docker.com/)
+- [Node v18.10.0](https://nodejs.org/en/download/current/)
 
-- [npm v6.0+](https://www.npmjs.com)
+- [npm v8.19.2](https://www.npmjs.com)
 
 ## Getting Started
 
@@ -53,7 +49,32 @@ npm install
 ```
 
 3. Set environment variables:
-
+- note : this script must be excuted first!
 ```bash
 bash to_dev.sh
+```
+
+## Running Locally
+
+```bash
+node server.js
+```
+
+## Test
+
+```bash
+# run all tests with Jest
+npm run test
+
+# run unit tests
+npm run test:unit
+
+# run integration tests
+npm run test:integration
+
+# run all tests and watch for changes
+npm run test:watch
+
+# generate coverage reports
+npm run coverage
 ```
