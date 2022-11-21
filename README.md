@@ -22,10 +22,11 @@
 - Tests with [mocha](https://mochajs.org), [chai](http://chaijs.com) and [sinon](http://sinonjs.org)
 - Code coverage with [Jest](https://jestjs.io/)
 - Logging with [morgan](https://github.com/expressjs/morgan)
-- Rate limiting with [express-rate-limit](https://www.npmjs.com/package/express-rate-limit)
 - API documentation generation with [swagger-docs](https://swagger.io/docs/)
-
-
+- To access the generated documentation :
+```bash
+localhost:8080/api-docs/
+```
 
 ## Prerequisites
 
