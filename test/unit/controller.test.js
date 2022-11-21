@@ -17,6 +17,8 @@ describe('test my api', () => {
             expect(res.status).to.eq(200);
             assert.notEqual(res.body['result'], null);
             assert.notEqual(res.body['result'], '');
+            assert.notEqual(res.body['message'], null);
+            assert.notEqual(res.body['status'], null);
         });
     });
   });
